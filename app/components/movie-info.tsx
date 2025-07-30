@@ -1,5 +1,5 @@
 import styles from "../../styles/movie-info.module.css";
-import { API_URL } from "../(home)/page";
+import { API_URL } from "../constants";
 import Link from "next/link";
 
 export async function getMovie(id: string) {
